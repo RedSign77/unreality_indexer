@@ -5,7 +5,7 @@
 
 declare(strict_types = 1);
 
-namespace Unreality\Indexer\Ui\DataProvider\AttributeOptions\Listing;
+namespace Unreality\UsefulTools\Ui\DataProvider\AttributeOptions\Listing;
 
 use Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult;
 use Magento\Catalog\Api\Data\ProductAttributeInterface;

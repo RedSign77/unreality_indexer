@@ -1,19 +1,19 @@
 {
-  "name": "unreality/indexer",
+  "name": "unreality/usefultools",
   "type": "magento2-module",
   "license": [
     "Proprietary"
   ],
   "require": {
     "php": "^7.3",
-    "magento/module-indexer": "~100.3"
+    "magento/module-indexer": "^100.3"
   },
   "autoload": {
     "files": [
       "registration.php"
     ],
     "psr-4": {
-      "Unreality\\Indexer\\": ""
+      "Unreality\\UsefulTools\\": ""
     }
   }
 }

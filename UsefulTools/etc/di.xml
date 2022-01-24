@@ -6,8 +6,8 @@
     <type name="Magento\Framework\Console\CommandListInterface">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="mviewReindex" xsi:type="object">Unreality\Indexer\Console\Command\MviewIndexCommand</item>
-                <item name="unusedAttributeOptionsCleanup" xsi:type="object">Unreality\Indexer\Console\Command\RemoveUAOptionsCommand</item>
+                <item name="mviewReindex" xsi:type="object">Unreality\UsefulTools\Console\Command\MviewIndexCommand</item>
+                <item name="unusedAttributeOptionsCleanup" xsi:type="object">Unreality\UsefulTools\Console\Command\RemoveUAOptionsCommand</item>
             </argument>
         </arguments>
     </type>

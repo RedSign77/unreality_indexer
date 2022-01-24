@@ -5,7 +5,7 @@
 
 declare(strict_types = 1);
 
-namespace Unreality\Indexer\Console\Command;
+namespace Unreality\UsefulTools\Console\Command;
 
 use Magento\Framework\Console\Cli;
 use Symfony\Component\Console\Command\Command;

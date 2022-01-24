@@ -5,7 +5,7 @@
 
 declare(strict_types = 1);
 
-namespace Unreality\Indexer\Console\Command;
+namespace Unreality\UsefulTools\Console\Command;
 
 use Magento\Framework\Exception\LocalizedException;
 use Symfony\Component\Console\Command\Command;
@@ -16,8 +16,8 @@ use Magento\Framework\App\State;
 use Symfony\Component\Console\Helper\Table;
 use Magento\Framework\Console\Cli;
 use Magento\Framework\App\Area;
-use Unreality\Indexer\Ui\DataProvider\AttributeOptions\Listing\CollectionFactory;
-use Unreality\Indexer\Ui\DataProvider\AttributeOptions\Listing\Collection;
+use Unreality\UsefulTools\Ui\DataProvider\AttributeOptions\Listing\CollectionFactory;
+use Unreality\UsefulTools\Ui\DataProvider\AttributeOptions\Listing\Collection;
 
 class RemoveUAOptionsCommand extends Command
 {
